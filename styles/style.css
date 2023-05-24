@@ -29,7 +29,7 @@ body {
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    gap: 3rem;
 }
 
 .cabecalho__menu__link {
@@ -100,7 +100,7 @@ body {
     text-decoration: none;
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
 }
 
@@ -138,7 +138,7 @@ body {
 /* para quando ocorre uma quebra do layout (break point) */
 @media (max-width: 1200px) {
     .cabecalho {
-        padding: 7%;
+        padding: 10%;
     }
 
     .cabecalho__menu {
